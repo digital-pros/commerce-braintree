@@ -2,7 +2,7 @@
 
 ## Installing the Gateway
 
-This gateway utilizes the thephpleague/omnipay-braintree driver, and will update the Braintree  gateway in Craft Commerce 1.
+This gateway utilizes the thephpleague/omnipay-braintree driver.
 
 #### Requirements
 - Craft 3 (or later)
