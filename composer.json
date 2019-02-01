@@ -1,0 +1,44 @@
+{
+  "name": "digital-pros/commerce-braintree",
+  "description": "Braintree payment gateway plugin for Craft Commerce 2",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "keywords": [
+    "braintree",
+    "commerce",
+    "craftcms",
+    "omnipay",
+    "yii2"
+  ],
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Digital Pros",
+      "homepage": "https://digitalpros.co/"
+    }
+  ],
+  "support": {
+    "email": "support@craftcms.com",
+    "issues": "https://github.com/digitalpros/commerce-braintree/issues?state=open",
+    "source": "https://github.com/digitalpros/commerce-braintree",
+    "docs": "https://github.com/digitalpros/commerce-braintree",
+    "rss": "https://github.com/digitalpros/commerce-braintree/commits/master.atom"
+  },
+  "require": {
+	"craftcms/cms": "^3.0.0-RC1",
+    "craftcms/commerce": "^2.0.0-alpha.5",
+    "craftcms/commerce-omnipay": "^1.0.0",
+    "omnipay/braintree": "^1.1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "digitalpros\\commerce\\braintree\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Braintree for Craft Commerce",
+    "handle": "commerce-braintree",
+    "changelogUrl": "https://raw.githubusercontent.com/digitalpros/commerce-braintree/master/CHANGELOG.md",
+    "downloadUrl": "https://github.com/digitalpros/commerce-braintree/archive/master.zip"
+  }
+}
